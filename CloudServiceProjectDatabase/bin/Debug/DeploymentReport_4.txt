@@ -1,0 +1,42 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[customers] (Table)
+       [dbo].[employees] (Table)
+       [dbo].[offices] (Table)
+       [dbo].[orderdetails] (Table)
+       [dbo].[orderdetails].[productCode] (Index)
+       [dbo].[orders] (Table)
+       [dbo].[orders].[customerNumber] (Index)
+       [dbo].[payments] (Table)
+       [dbo].[productlines] (Table)
+       [dbo].[products] (Table)
+       Default Constraint: unnamed constraint on [dbo].[customers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[customers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[customers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[customers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[customers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[employees] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[offices] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[offices] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[orders] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[productlines] (Default Constraint)
+       [dbo].[customers_ibfk_1] (Foreign Key)
+       [dbo].[employees_ibfk_1] (Foreign Key)
+       [dbo].[employees_ibfk_2] (Foreign Key)
+       [dbo].[orderdetails_ibfk_1] (Foreign Key)
+       [dbo].[orderdetails_ibfk_2] (Foreign Key)
+       [dbo].[orders_ibfk_1] (Foreign Key)
+       [dbo].[payments_ibfk_1] (Foreign Key)
+       [dbo].[products_ibfk_1] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CloudServiceProjectEntities-Web.config Connection String" description="CloudServiceProjectEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.DomainModel.csdl|res://*/Models.DomainModel.ssdl|res://*/Models.DomainModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(localdb)\ProjectsV13;initial catalog=CloudServiceProject;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Maryam\\Documents\\Visual\ Studio\ 2017\\Projects\\CloudServiceProject\\CloudServiceProjectApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CloudServiceProjectEntities']/@connectionString" />
+  </parameter>
+</parameters>
